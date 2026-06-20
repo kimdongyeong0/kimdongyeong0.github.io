@@ -1,4 +1,4 @@
-export type SectionId = "about" | "research" | "publications" | "interests" | "education" | "contact";
+export type SectionId = "about" | "research" | "publications" | "news" | "interests" | "education" | "contact";
 
 export type NavItem = {
   id: SectionId;
@@ -14,6 +14,7 @@ export const navItems: NavItem[] = [
   { id: "about", label: "About" },
   { id: "research", label: "Research" },
   { id: "publications", label: "Publications" },
+  { id: "news", label: "News" },
   { id: "interests", label: "Interests" },
   { id: "education", label: "Education" },
   { id: "contact", label: "Contact" },
@@ -129,6 +130,25 @@ export const publications = [
   year={2026},
   doi={10.1109/ACCESS.2026.3655178}
 }`,
+  },
+];
+
+export const newsItems = [
+  {
+    title: "CS Undergraduate Students Author Paper in Top-ranked Journal",
+    source: "SUNY Korea Computer Science News Highlights",
+    date: "Jan. 2026",
+    url: "https://cs.sunykorea.ac.kr/cs/html/sub05/0501.html?mode=V&no=5ac286f00797813aa7bdf62249d08e28&GotoPage=1",
+    description:
+      "Department news covering the IEEE Access publication by undergraduate researchers and collaborators.",
+  },
+  {
+    title: "Brain-inspired Computing Lab selected for Preliminary Startup Program",
+    source: "SUNY Korea Computer Science News Highlights",
+    date: "Oct. 2025",
+    url: "https://cs.sunykorea.ac.kr/cs/html/sub05/0501.html?mode=V&no=85d0047861bcc923c1be9d39dfca46d2&GotoPage=1",
+    description:
+      "Department news about BCL's selection for the 2025 Preliminary Startup Package program.",
   },
 ];
 

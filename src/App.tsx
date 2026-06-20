@@ -4,6 +4,7 @@ import {
   contactContent,
   cvContent,
   navItems,
+  newsItems,
   profile,
   publications,
   researchContent,
@@ -107,6 +108,24 @@ function PublicationEntry({ publication }: { publication: (typeof publications)[
   );
 }
 
+function NewsList() {
+  return (
+    <div className="news-list">
+      {newsItems.map((item) => (
+        <article className="news-item" key={item.url}>
+          <p className="news-meta">
+            {item.source} · {item.date}
+          </p>
+          <h3>
+            <ExternalLink href={item.url}>{item.title}</ExternalLink>
+          </h3>
+          <p>{item.description}</p>
+        </article>
+      ))}
+    </div>
+  );
+}
+
 function App() {
   const personSchema = useMemo(
     () => ({
@@ -193,6 +212,10 @@ function App() {
 
         <Section id="publications" title="Publications">
           <PublicationEntry publication={publications[0]} />
+        </Section>
+
+        <Section id="news" title="News">
+          <NewsList />
         </Section>
 
         <Section id="interests" title="Research Interests">
