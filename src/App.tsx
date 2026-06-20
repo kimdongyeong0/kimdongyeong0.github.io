@@ -104,6 +104,7 @@ function PublicationEntry({ publication }: { publication: (typeof publications)[
           {copied ? "BibTeX copied" : "Copy BibTeX"}
         </button>
       </div>
+      <p className="publication-license">Licensed under CC BY 4.0.</p>
     </article>
   );
 }
