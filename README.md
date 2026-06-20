@@ -27,3 +27,11 @@ Build the site and deploy the contents of `dist/` to a static host such as GitHu
 ## Content
 
 Public-facing academic content is centralized in [src/siteData.ts](src/siteData.ts). Update that file to add the CV PDF URL, social links, publication links, dates, and future publications.
+
+## License
+
+The source code in this repository is licensed under the [MIT License](LICENSE).
+
+All website content, including text, images, CV materials, publication files,
+research figures, and personal branding assets, is © 2026 Dongyeong Kim.
+All rights reserved unless otherwise stated. See [NOTICE](NOTICE) for details.
