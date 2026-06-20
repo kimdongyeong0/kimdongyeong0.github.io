@@ -1,18 +1,89 @@
-Copyright © 2026 Dongyeong Kim. All rights reserved.
+Copyright © 2026 Dongyeong Kim. All rights reserved, except as expressly stated below.
 
-The MIT License applies only to the source code and software-related
-configuration files in this repository.
+1. Scope of the MIT License
+
+The MIT License in the LICENSE file applies only to the source code and
+software-related configuration files in this repository.
+
+This includes, but is not limited to:
+
+* Application source code
+* Components, pages, layouts, stylesheets, and scripts
+* Build, deployment, linting, formatting, and development configuration files
+* Documentation that is explicitly identified as software documentation
+* Reusable implementation patterns and code samples created for this website
+
+The MIT License does not apply to personal, academic, research, visual, or
+publication-related content unless that content is explicitly identified as
+being licensed under the MIT License.
+
+2. Publication Licensed Under CC BY 4.0
+
+The following publication, including its PDF and any materials explicitly
+identified as belonging to the publication, is licensed under the Creative
+Commons Attribution 4.0 International License (CC BY 4.0):
+
+Title:
+Advanced Training Algorithms in Sigma-Delta Spiking YOLO for
+Energy-Efficient Object Detection on Neuromorphic Hardware
+
+Authors:
+Dongyeong Kim, Gilho Kim, Myeong Jun Kim, Si Yong Lee, and Yoon Seok Yang
+
+Venue:
+IEEE Access, 2026
+
+DOI:
+https://doi.org/10.1109/ACCESS.2026.3655178
+
+License:
+Creative Commons Attribution 4.0 International License (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+The publication may be copied, redistributed, adapted, and reused in
+accordance with the terms of CC BY 4.0. Any reuse must provide appropriate
+attribution, include a link to the CC BY 4.0 license, and indicate whether
+changes were made.
+
+The copyright, attribution, and license statements contained inside the
+publication PDF take precedence over this NOTICE for the publication itself.
+
+3. Content Not Covered by the MIT License
 
 Unless explicitly stated otherwise, the following materials are not licensed
 under the MIT License and may not be copied, redistributed, modified, or used
 without prior written permission from Dongyeong Kim:
 
-- Website text, biography, and research descriptions
-- Curriculum vitae / resume files
-- Photographs, profile images, and other visual assets
-- Publication PDFs, figures, tables, and supplementary materials
-- Research data, unpublished work, and project documentation
-- Logos, names, and personal branding elements
+* Personal biography, profile text, and academic narrative
+* Curriculum vitae, resume, transcripts, and application materials
+* Profile photographs, personal images, and other visual assets
+* Personal branding elements, logos, signatures, and identity-related design
+* Unpublished research notes, ideas, data, experiments, code, figures, and
+  supplementary materials
+* Private project documentation and research materials not explicitly released
+  under an open license
+* Content belonging to collaborators, coauthors, laboratories, universities,
+  publishers, or other third parties
 
-Third-party materials remain subject to their respective licenses and
-copyright terms.
+4. Third-Party Materials
+
+Third-party software, libraries, icons, fonts, images, datasets, and other
+materials included in this repository remain subject to their respective
+licenses, copyright notices, and terms of use.
+
+Nothing in this NOTICE grants permissions beyond those provided by the
+applicable third-party license or rights holder.
+
+5. No Implied License
+
+No license or permission is granted by implication, estoppel, or otherwise for
+any content not explicitly covered by the MIT License or another clearly
+identified license.
+
+6. Contact
+
+For permissions or licensing questions regarding content in this repository,
+contact:
+
+Dongyeong Kim
+Email: [kilo.dong0@gmail.com](mailto:kilo.dong0@gmail.com)
