@@ -20,7 +20,7 @@ export const navItems: NavItem[] = [
 ];
 
 export const siteMetadata = {
-  title: "Dongyeong Kim | Undergraduate AI Researcher",
+  title: "Dongyeong Kim",
   description:
     "Dongyeong Kim is a Computer Science student at Stony Brook University and an undergraduate researcher interested in neuromorphic computing, spiking neural networks, and energy-efficient AI.",
 };
