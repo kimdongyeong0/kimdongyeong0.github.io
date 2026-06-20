@@ -32,6 +32,10 @@ Public-facing academic content is centralized in [src/siteData.ts](src/siteData.
 
 The source code in this repository is licensed under the [MIT License](LICENSE).
 
-All website content, including text, images, CV materials, publication files,
-research figures, and personal branding assets, is © 2026 Dongyeong Kim.
-All rights reserved unless otherwise stated. See [NOTICE](NOTICE) for details.
+The publication “Advanced Training Algorithms in Sigma-Delta Spiking YOLO for
+Energy-Efficient Object Detection on Neuromorphic Hardware” is licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+All other website content, including personal text, CV materials, profile
+images, personal branding assets, and unpublished research materials, is
+protected as described in [NOTICE](NOTICE).
