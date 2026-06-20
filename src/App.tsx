@@ -127,6 +127,8 @@ function NewsList() {
 }
 
 function App() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const personSchema = useMemo(
     () => ({
       "@context": "https://schema.org",
@@ -169,10 +171,24 @@ function App() {
           <a className="site-name" href="#">
             {profile.name}
           </a>
-          <ul>
+          <button
+            className="menu-toggle"
+            type="button"
+            aria-controls="primary-menu"
+            aria-expanded={isMenuOpen}
+            aria-label="Toggle navigation menu"
+            onClick={() => setIsMenuOpen((open) => !open)}
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </button>
+          <ul id="primary-menu" className={isMenuOpen ? "is-open" : ""}>
             {navItems.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`}>{item.label}</a>
+                <a href={`#${item.id}`} onClick={() => setIsMenuOpen(false)}>
+                  {item.label}
+                </a>
               </li>
             ))}
           </ul>

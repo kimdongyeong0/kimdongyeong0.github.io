@@ -143,6 +143,27 @@ h3 {
   white-space: nowrap;
 }
 
+.menu-toggle {
+  display: none;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  padding: 0;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--ink);
+}
+
 .topbar ul {
   display: flex;
   flex-wrap: wrap;
@@ -384,6 +405,32 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .topbar nav {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 44px;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+    flex-direction: column;
+    justify-self: end;
+  }
+
+  .topbar ul {
+    display: none;
+    grid-column: 1 / -1;
+    width: 100%;
+    border-top: 1px solid var(--rule);
+    padding-top: 0.55rem;
+  }
+
+  .topbar ul.is-open {
+    display: grid;
+    gap: 0.1rem;
+  }
+
   .profile-intro {
     grid-template-columns: minmax(0, 1fr) 84px;
     gap: 0.85rem;
@@ -393,11 +440,6 @@ h3 {
   .profile-photo {
     width: 84px;
     height: 84px;
-  }
-
-  .topbar nav {
-    align-items: start;
-    flex-direction: column;
   }
 
   .topbar ul,
@@ -415,6 +457,10 @@ h3 {
     min-height: 44px;
     align-items: center;
     padding: 0 0.18rem;
+  }
+
+  .topbar a:not(.site-name) {
+    width: 100%;
   }
 
   .page {
