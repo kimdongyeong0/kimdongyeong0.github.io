@@ -199,7 +199,7 @@ export const contactContent: { message: string; socialLinks: SocialLink[] } = {
     { label: "LinkedIn", url: "https://www.linkedin.com/in/dongyeongkim-lukas" },
     { label: "ResearchGate", url: "https://www.researchgate.net/profile/Dongyeong-Kim-4" },
     { label: "Google Scholar", url: "https://scholar.google.com/citations?user=SdGtdJIAAAAJ&hl=en" },
-    { label: "ORCID", url: null },
+    { label: "ORCID", url: "https://orcid.org/0009-0002-7229-8590" },
   ],
 };
 
