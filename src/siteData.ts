@@ -50,7 +50,7 @@ export const profile = {
     "Sigma-Delta Neural Networks",
     "Brain-Inspired Computing",
   ],
-  cvPdfUrl: null as string | null,
+  cvPdfUrl: "Dongyeong_Kim_Academic_CV.pdf",
   headshotUrl: "images/profile.jpeg",
 };
 
@@ -154,7 +154,7 @@ export const newsItems = [
 
 export const cvContent = {
   note:
-    "This online version is a concise overview. The downloadable PDF should be treated as the complete record once the current file is supplied.",
+    "This online version is a concise overview. The downloadable PDF should be treated as the complete record.",
   education: [
     {
       institution: "Stony Brook University (SUNY Korea)",

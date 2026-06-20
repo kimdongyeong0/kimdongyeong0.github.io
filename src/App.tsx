@@ -71,6 +71,9 @@ function AvailableLinks({ className = "link-row" }: { className?: string }) {
         </ExternalLink>
       ))}
       <ExternalLink href={cvContent.researchExperience[0].organizationUrl}>Lab</ExternalLink>
+      {profile.cvPdfUrl ? (
+        <ExternalLink href={profile.cvPdfUrl}>CV (PDF)</ExternalLink>
+      ) : null}
     </div>
   );
 }
@@ -251,6 +254,14 @@ function App() {
         </Section>
 
         <Section id="education" title="Education and Research Experience">
+          {profile.cvPdfUrl ? (
+            <div className="cv-download-block">
+              <p className="cv-note">{cvContent.note}</p>
+              <ExternalLink className="cv-download-btn" href={profile.cvPdfUrl}>
+                Download CV (PDF)
+              </ExternalLink>
+            </div>
+          ) : null}
           <div className="timeline">
             {cvContent.education.map((item) => (
               <article className="timeline-row" key={item.institution}>
